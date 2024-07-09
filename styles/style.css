@@ -145,6 +145,40 @@ main{
   background-color: transparent;
   border-radius: 5px;
   border: 2px solid #6c757d;
+  cursor: pointer;
 }
+
+/* inspiration styles starts here */
+#inspiration{
+  width: 870px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.inspiration-title{
+  font-size: 35px;
+  font-weight: 900;
+  margin: 20px 0;
+  text-align: center;
+}
+.inspiriation-description{
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+.inspire-video{
+  border-radius: 20px !important;
+  overflow: hidden;
+  position: relative;
+}
+.inspire-video .i-frame{
+  width: 100%;
+  height: 500px;
+}
+.video-container{
+  border: 1px solid #6c757d;
+  border-radius: 20px;
+  padding: 20px;
+}
+/* inspiration styles ends here */
 
 /* main styles ends here  */
